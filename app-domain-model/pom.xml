@@ -3,7 +3,7 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>ticketing-project-microservices</artifactId>
+        <artifactId>ticketing-project-microservices-lng</artifactId>
         <groupId>com.cydeo</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
@@ -36,9 +36,14 @@
             <artifactId>modelmapper</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.netflix.eureka</groupId>
-            <artifactId>eureka-server</artifactId>
-            <version>2.0.0</version>
+            <groupId>xyz.srclab.spring.boot</groupId>
+            <artifactId>dependencies-spring-boot</artifactId>
+            <version>0.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>org.springframework.boot.gradle.plugin</artifactId>
+            <version>3.0.2</version>
         </dependency>
     </dependencies>
 
